@@ -70,7 +70,7 @@ interface KeyboardAwareProps {
 
 interface KeyboardAwareListViewProps extends KeyboardAwareProps, ListViewProperties {}
 interface KeyboardAwareScrollViewProps extends KeyboardAwareProps, ScrollViewProperties {}
-interface KeyboardAwareFlatListProps extends KeyboardAwareProps, FlatListProperties {}
+interface KeyboardAwareFlatListProps extends KeyboardAwareProps, FlatListProperties<any> {}
 
 interface KeyboardAwareState {
   keyboardSpace: number
